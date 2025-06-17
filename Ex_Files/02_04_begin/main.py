@@ -6,8 +6,8 @@ while i < len(NAMES):
     print(NAMES[i], AGES[i])
     i += 1
 
-for name in NAMES:
-    print(name)
+for x in NAMES:
+    print(x)
 
 for name, age in zip(NAMES, AGES):
     print(f"{name} {age}")
@@ -19,3 +19,5 @@ for i in range(5):
     print(i)
 
 # enumerate
+for i, name in enumerate(NAMES):
+    print(f"{i} {name}")
